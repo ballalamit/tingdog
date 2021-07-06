@@ -1,0 +1,209 @@
+.navbar-nav{
+  margin-left: 70%;
+  margin-right: 20%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#title{
+  background-color:#ff4368;
+
+}
+
+h1{
+  font-family: Montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: white;
+
+}
+
+.testimonial-text{
+  line-height: 1.5;
+  font-weight: 800;
+  color: white;
+
+  font-size: 2.5rem;
+
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.dog-img{
+  width:60%;
+  transform: rotate(20deg);
+position: absolute;
+right: 30%;
+
+}
+
+/* Features */
+
+/* .container-fluid{
+  margin: 30px 0;
+} */
+
+
+#features{
+  padding: 7% 15%;
+    background-color: white;
+position: relative;
+z-index: 1;
+}
+
+
+.fas{
+  margin-bottom: 1rem;
+}
+.fa-check-circle{
+  text-align:center;
+         width:100%;
+
+         color: #ef8172;
+
+}
+.fas:hover {
+
+  color:#ff4368;
+}
+
+.fa-bullseye{
+  text-align:center;
+         width:100%;
+
+         color: #ef8172;
+
+}
+.fa-heart{
+  text-align:center;
+         width:100%;
+
+         color: #ef8172;
+}
+
+.feature-h3{
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Montserrat-bold;
+  font-weight: bold;
+
+  padding: 0 40px;
+
+}
+.feature-para{
+  text-align: center;
+padding:0 15%;
+color: #8f8f8f
+}
+
+/* Testimonials */
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+}
+.dog-image,.testimonial-image{
+  width: 5%;
+  border-radius: 50%;
+}
+em{
+  color: white;
+  padding-left: 15px;
+}
+.carousel-item{
+  padding: 7% 20% 2% 20%;
+}
+
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding: 3% 0;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 5%, 2%;
+}
+
+.card{
+  margin: 0 30px;
+}
+
+/* media */
+@media(max-width: 991px) {
+  .dog-img{
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+    margin-top: 20px;
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+}
+@media (max-width: 1111px) {
+  #collapsibleNavbar{
+    margin-right: 5%;
+  }
+
+}
+
+@media (max-width: 992px){
+.navbar-collapse {
+
+  background-color: red;
+}
+}
+
+@media (max-width: 992px){
+  .navbar-nav{
+    text-align: center;
+  }
+}
+
+/* cta */
+#cta{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.cta-h3{
+  padding-top:30px;
+  font-family: "Ubuntu";
+  font-weight: 500px;
+}
