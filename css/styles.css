@@ -199,11 +199,23 @@ em{
 /* cta */
 #cta{
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4368;
 }
 
 .cta-h3{
-  padding-top:30px;
-  font-family: "Ubuntu";
-  font-weight: 500px;
+
+  font-family: Montserrat-black;
+  font-size: 3.5rem;
+      font-weight: 800;
+      color: white;
+      margin: auto;
+  padding: 30px 20% 0 20%;
+}
+
+.social-icon{
+  text-align: center;
+  margin-top: 50px;
+}
+.icon{
+  padding: 10px;
 }
